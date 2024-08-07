@@ -62,4 +62,4 @@ joined_df = joined_df.dropDuplicates()
 joined_df.show()
 
 # Save the cleaned and joined DataFrame back to Azure Storage
-joined_df.write.csv("abfss://refined-data@adlsgamingbehavior.dfs.core.windows.net/cleaned_data.csv", header='True')
+joined_df.write.csv("abfss://refined-data@adlsgamingbehavior.dfs.core.windows.net/cleaned_data", header='True')
